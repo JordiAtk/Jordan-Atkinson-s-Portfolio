@@ -431,6 +431,18 @@ footer {
     color: #fff;
 }
 
+.footer__social--link {
+    transition: all 300ms;
+    border-bottom: 2px solid transparent;
+    opacity: 1;
+}
+
+.footer__social--link:hover {
+    transition: all 300ms;
+    border-bottom: 2px solid;
+    opacity: 1;
+}
+
 .footer__logo--popper {
     color: white;
     position: absolute;
